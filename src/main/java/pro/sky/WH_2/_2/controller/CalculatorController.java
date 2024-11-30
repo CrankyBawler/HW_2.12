@@ -19,4 +19,18 @@ public class CalculatorController {
     public int plus(@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
         return (5);
     }
+
+    @GetMapping("/minus")
+    public int minus (@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
+        return (5);
+    }
+    @GetMapping("/miltiply")
+    public int miltiply (@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
+        return (5);
+    }
+    @GetMapping("/divide")
+    public int divide (@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
+        return (5);
+    }
+
 }
